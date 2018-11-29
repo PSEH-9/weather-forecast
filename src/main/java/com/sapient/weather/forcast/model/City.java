@@ -1,7 +1,5 @@
 package com.sapient.weather.forcast.model;
 
-import java.io.Serializable;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.validation.constraints.NotNull;
@@ -18,7 +16,7 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor
-public class City extends BaseEntity implements Serializable {
+public class City extends BaseEntity{
 
 	/**
 	 *
